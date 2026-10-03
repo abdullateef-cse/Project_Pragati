@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Project Pragati is a joint initiative by Shoolini University and the Pehal Foundation to empower rural women through entrepreneurship training and mentorship." />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Project Pragati - Empowering Rural Women" />
+  <meta property="og:description"
+    content="A joint initiative by Shoolini University and the Pehal Foundation, fostering self-reliance and sustainable growth." />
+  <meta property="og:image" content="images/image.png" />
+  <meta property="og:url" content="https://projectpragati.org" />
+  <title>Project Pragati</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <a href="#home" class="logo">Project Pragati</a>
+
+      <ul class="nav-links">
+        <li><a href="#home" data-key="home">Home</a></li>
+        <li><a href="programs.html" data-key="programs">Programs</a></li>
+        <li><a href="impact.html" data-key="impact">Impact</a></li>
+        <li><a href="resources.html" data-key="resources">Resources</a></li>
+        <li><a href="#get-involved" data-key="getInvolved">Get Involved</a></li>
+      </ul>
+
+      <div class="nav-right-items">
+
+        <!-- Language -->
+        <div class="language-switcher">
+          <select id="language-select">
+            <option value="en">English</option>
+            <option value="hi">हिंदी</option>
+          </select>
+        </div>
+
+        <!-- Login Icon -->
+        <a href="login.html" class="login-icon" aria-label="Sakhi Login">
+          <i class="fas fa-user-circle"></i>
+        </a>
+
+        
+
+      </div>
+
+      <!-- Hamburger -->
+      <button class="hamburger" aria-label="Open menu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Image Hero Section with Overlay Text -->
+    <section id="video-hero" class="video-hero">
+      <div class="video-background-wrap">
+        <img class="background-image" src="images/village.jpg" alt="Project Pragati Village" />
+      </div>
+
+      <div class="video-overlay"></div>
+
+      <div class="video-content">
+        <div class="video-text-wrapper">
+          <h1 class="video-title">PROJECT PRAGATI</h1>
+          <p class="video-subtitle">ICF COACHING-LED RURAL WOMEN ENTREPRENEURS DEVELOPMENT PROGRAM</p>
+          <div class="video-action-group">
+            <a href="programs.html" class="cta-button">Explore Programs</a>
+            <a href="#about" class="cta-button secondary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="home" class="hero">
+      <div class="hero-container container">
+        <div class="hero-text animate-on-load">
+          <h1 data-key="heroTitle">
+            Building Women-Led Economies from the Ground Up
+          </h1>
+          <p data-key="heroSubtitle">
+            A flagship initiative by the Centre for Leadership Coaching, Shoolini University, in collaboration with the
+            Shoolini Pehal Foundation—designed to enable rural women to build sustainable livelihoods, strengthen
+            economic independence, and lead change within their communities.
+          </p>
+          <a href="#about" class="cta-button" data-key="learnMore">Learn More</a>
+        </div>
+        <div class="hero-image animate-on-load">
+          <img src="images/women.jpg" alt="Project Pragati Entrepreneurs" fetchpriority="high" style="max-height: 450px; width: auto; object-fit: cover; object-position: top; aspect-ratio: 1 / 1;" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 data-key="ourMission">Our Mission</h2>
+        <div class="about-content mission-section">
+          <p data-key="missionText">
+            Project Pragati is dedicated to empowering rural women by providing them with the essential entrepreneurship
+            training and support to establish and grow their own businesses. Our unique three-tier mentorship model
+            connects participants (Sakhis) with personalized coaches (Sarthis) and student mentors (Sahyogis) to ensure
+            comprehensive guidance, skill enhancement, and confidence-building for lasting success.
+          </p>
+          <div class="mission-cards">
+            <div class="mission-card mission-card-left">
+              <img src="images/p1.jpeg" alt="Project Pragati Activity">
+            </div>
+            <div class="mission-card mission-card-right">
+              <img src="images/p2.jpg" alt="Project Pragati Empowerment">
+            </div>
+          </div>
+          <a href="gallery.html" class="cta-button gallery-button">View Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="stats-section">
+      <div class="container">
+        <h2>Our Impact by Numbers</h2>
+        <div class="stats-grid">
+
+          <div class="stat-card">
+            <div class="stat-number" id="villageCount">0</div>
+            <p>Villages Covered</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number" id="volunteerCount">0</div>
+            <p>Volunteer Applications</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number" id="sessionCount">0</div>
+            <p>Training Sessions</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number" id="investment">0</div>
+            <p>Community Investment</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="stories">
+      <div class="container">
+        <p class="stories-eyebrow">REAL WOMEN. REAL JOURNEYS. REAL IMPACT.</p>
+        <h2 data-key="meetTheSakhis">Success Stories</h2>
+        <p class="section-intro">Inspiring journeys of women entrepreneurs transformed by Project Pragati</p>
+        <div class="stories-grid">
+          <div class="story-card">
+            <div class="story-image">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80" alt="Sakhi 1" />
+            </div>
+            <div class="story-content">
+              <h4>"From Dreams to Reality"</h4>
+              <p class="business-name" data-key="sakhi1Business"><strong>Handmade Crafts</strong></p>
+              <blockquote data-key="sakhi1Quote">
+                "Project Pragati didn't just teach me business skills; it gave me the courage to lead and inspire in my
+                community. Today, I'm not just running a business – I'm mentoring other women."
+              </blockquote>
+            </div>
+          </div>
+          <div class="story-card">
+            <div class="story-image">
+              <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=80" alt="Sakhi 2" />
+            </div>
+            <div class="story-content">
+              <h4 data-key="sakhi2Title">From Kitchen to Market</h4>
+              <p class="business-name" data-key="sakhi2Business">Organic Spices</p>
+              <blockquote data-key="sakhi2Quote">
+                "From my small kitchen to a growing business, I am now a self-reliant entrepreneur supporting my
+                family's future."
+              </blockquote>
+            </div>
+          </div>
+          <div class="story-card">
+            <div class="story-image">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80" alt="Sakhi 3" />
+            </div>
+            <div class="story-content">
+              <h4 data-key="sakhi3Title">Stitching Success</h4>
+              <p class="business-name" data-key="sakhi3Business">Tailoring & Design</p>
+              <blockquote data-key="sakhi3Quote">
+                "The mentorship I received was life-changing. I have the confidence to manage my finances and grow my
+                workshop."
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <div class="container">
+        <h2 data-key="ourTeam">Our Team</h2>
+        <p class="section-intro">Expert leaders guiding Project Pragati's mission</p>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="images/vishalanand.jpg" alt="Vishal Anand" />
+            <h4>Vishal Anand</h4>
+            <p data-key="proChancellor">Pro-Chancellor, Shoolini University</p>
+          </div>
+          <div class="team-member">
+            <img src="images/Atulkhosla.jpg" alt="Prof. Atul Khosla" />
+            <h4>Prof. Atul Khosla</h4>
+            <p data-key="viceChancellor">Vice-Chancellor & Advisor, Shoolini University</p>
+          </div>
+          <div class="team-member">
+            <img src="images/payal.jpg" alt="Payal Jindal Khanna" />
+            <h4>Payal Jindal Khanna</h4>
+            <p data-key="headOfCentre">Assoc. Dir. & Head of Centre for Leadership Coaching, Shoolini University</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsor">
+      <div class="container">
+        <h2 data-key="sponsorASakhi">Make a Difference</h2>
+        <p class="section-intro" data-key="sponsorIntro">
+          Your contribution directly empowers rural women entrepreneurs
+        </p>
+        <div class="sponsor-grid">
+          <div class="sponsor-card">
+            <i class="fas fa-heart"></i>
+            <h3>Sponsor One Sakhi</h3>
+            <p>₹50,000</p>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin: 10px 0;">Training, mentoring & business setup
+            </p>
+            <a href="donate.html" class="cta-button secondary">Sponsor Now</a>
+          </div>
+          <div class="sponsor-card">
+            <i class="fas fa-handshake"></i>
+            <h3>Sponsor Village Batch</h3>
+            <p>₹6,00,000</p>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin: 10px 0;">Support 10-15 women & community
+              impact</p>
+            <a href="donate.html" class="cta-button secondary">Sponsor Batch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="village">
+      <div class="container">
+        <h2 data-key="bringPragatiToVillage">Bring Pragati to My Village</h2>
+        <p class="section-intro" data-key="villageFormIntro">
+          Want to bring Project Pragati to your village? Fill out this form and our team will reach out to you to
+          discuss the possibilities.
+        </p>
+        <form id="villageForm" class="volunteer-form">
+          <div class="form-group">
+            <label for="village-name" data-key="villageName">Village Name</label>
+            <input type="text" id="village-name" name="village-name" required>
+          </div>
+          <div class="form-group">
+            <label for="panchayat" data-key="panchayat">Panchayat</label>
+            <input type="text" id="panchayat" name="panchayat" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-person" data-key="contactPerson">Contact Person</label>
+            <input type="text" id="contact-person" name="contact-person" required>
+          </div>
+          <div class="form-group">
+            <label for="phone-village" data-key="phone">Phone</label>
+            <input type="tel" id="phone-village" name="phone-village" required>
+          </div>
+          <div class="form-group">
+            <label for="women-count" data-key="womenInterested">Number of Women Interested</label>
+            <input type="number" id="women-count" name="women-count" min="1" required>
+          </div>
+          <div class="form-group">
+            <label for="livelihood" data-key="mainLivelihood">Main Livelihood Activity</label>
+            <textarea id="livelihood" name="livelihood" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="cta-button" data-key="submitRequest">Submit Request</button>
+        </form>
+      </div>
+    </section>
+
+
+    <section id="get-involved">
+      <div class="container">
+        <h2 data-key="joinUs">Join Us in Our Mission</h2>
+        <p class="section-intro" data-key="joinUsText">
+          Your support can make a real difference in the lives of these
+          aspiring entrepreneurs. Choose how you want to contribute and
+          become a part of their journey to self-reliance.
+        </p>
+        <div class="get-involved-grid">
+          <div class="get-involved-card">
+            <i class="fas fa-hands-helping"></i>
+            <h3 data-key="volunteer">Volunteer</h3>
+            <p data-key="volunteerText">
+              Become a mentor (Sarthi) or a student mentor (Sahyogi) and share
+              your expertise to guide our Sakhis on their entrepreneurial
+              journey. Your time and knowledge are invaluable.
+            </p>
+            <a href="volunteer.html" class="cta-button" data-key="becomeAVolunteer">Become a Volunteer</a>
+          </div>
+          <div class="get-involved-card">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3 data-key="donate">Donate</h3>
+            <p data-key="donateText">
+              Your financial contribution can help us provide essential
+              resources, training materials, and seed funding to our Sakhis,
+              empowering them to build and scale their businesses.
+            </p>
+            <a href="donate.html" class="cta-button" data-key="donateNow">Donate Now</a>
+          </div>
+          <div class="get-involved-card">
+            <i class="fas fa-handshake"></i>
+            <h3 data-key="partnerWithUs">Partner with Us</h3>
+            <p data-key="partnerText">
+              We welcome corporate and institutional partnerships to expand
+              our reach and impact. Collaborate with us to create sustainable
+              livelihoods and drive social change.
+            </p>
+            <a href="partner.html" class="cta-button" data-key="becomeAPartner">Become a Partner</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <img src="images/logo2.png" alt="Project Pragati Logo" class="footer-logo" />
+        </div>
+        <div class="footer-center">
+          <div class="social-media">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"
+                aria-hidden="true"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"
+                aria-hidden="true"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"
+                aria-hidden="true"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <p>Shoolini University, Solan, HP</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">Top</button>
+  <div id="toast" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #1e7e34;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    display: none;
+    font-weight: 500;
+    z-index: 999;
+">
+  </div>
+  <script src="js/script.js" defer></script>
+  <script src="js/languages.js"></script>
+  <script src="js/translate.js"></script>
+</body>
+
+</html>
